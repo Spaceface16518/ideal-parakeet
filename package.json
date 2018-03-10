@@ -1,0 +1,19 @@
+{
+  "name": "ideal-parakeet",
+  "version": "1.0.0",
+  "description": "A free to-do list application",
+  "main": "app.js",
+  "repository": "https://github.com/Spaceface16518/ideal-parakeet.git",
+  "author": "Spaceface16518 <33424649+Spaceface16518@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "http": "^0.0.0",
+    "jquery": "^3.3.1",
+    "mongodb-stitch": "^3.0.6",
+    "path": "^0.12.7",
+    "socket-io": "^1.0.0"
+  }
+}
