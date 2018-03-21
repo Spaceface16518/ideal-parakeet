@@ -105,4 +105,3 @@ typings/
 
 ### Custom Ignores ###
 yarn.lock
-Makefile
