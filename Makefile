@@ -31,7 +31,7 @@
 define npm_script_targets
 TARGETS := $(shell node -e 'for (var k in require("./package.json").scripts) {console.log(k.replace(/:/g, "-"));}')
 $$(TARGETS):
-	npm run $(subst -,:,$(MAKECMDGOALS))
+	yarn run $(subst -,:,$(MAKECMDGOALS))
 
 .PHONY: $$(TARGETS)
 endef
@@ -40,4 +40,4 @@ $(eval $(call npm_script_targets))
 
 # These npm run scripts are available, without needing to be mentioned in `package.json`
 install:
-	npm install
+	yarn install
